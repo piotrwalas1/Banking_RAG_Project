@@ -1,5 +1,6 @@
 # Banking_RAG_Project - w budowie :)
 📂 Struktura Projektu
+
 ingest.py
 Wczytuje regulaminy PDF, dzieli je na 1000-znakowe fragmenty i tworzy wektorową bazę danych przy użyciu modelu embeddingów Google.
 
