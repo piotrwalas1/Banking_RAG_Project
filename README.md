@@ -1,1 +1,1 @@
-# Banking_RAG_Project - wbudowie :)
+# Banking_RAG_Project - w budowie :)
