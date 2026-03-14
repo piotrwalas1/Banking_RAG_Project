@@ -22,7 +22,7 @@ Projekt składa się z trzech modułów, które automatyzują pełny cykl życia
 
 ### 3. `test_runner.py` (Moduł Audytu i Ewaluacji)
 * **Zadanie:** Zautomatyzowany benchmark jakości i wydajności.
-* **Metodologia LLM-as-a-Judge:** Wykorzystuje model **Gemini 1.5 Pro** jako niezależnego audytora, który ocenia merytoryczną poprawność odpowiedzi bota w skali 1-5 na podstawie bazy 60 rzeczywistych przypadków testowych.
+* **Metodologia LLM-as-a-Judge:** Wykorzystuje model **Gemini 2.5 Pro** jako niezależnego audytora, który ocenia merytoryczną poprawność odpowiedzi bota w skali 1-5 na podstawie bazy 60 rzeczywistych przypadków testowych.
 
 ---
 
@@ -66,13 +66,6 @@ System jest monitorowany w trzech kluczowych wymiarach:
 #### 3. Filar Performance & Business
 * **UX:** Średnie opóźnienie **1.35s** pozwala na płynną, naturalną interakcję z klientem bez "efektu czekania".
 * **Skalowalność:** Koszt jednostkowy zapytania (**$0.0027**) udowadnia, że model Gemini 2.0 Flash zapewnia bezkonkurencyjny stosunek jakości do ceny w zastosowaniach masowych.
-
----
-
-## 🏁 Rekomendacje Wdrożeniowe
-1.  **Uzupełnienie bazy wiedzy:** Dodanie brakujących dokumentów TOiP dla nowych produktów (np. Konto Jakie Chcę).
-2.  **Optymalizacja Chunkingu:** Zmiana rozmiaru fragmentów tekstu w `ingest.py` dla lepszego zachowania spójności tabel opłat.
-3.  **Wdrożenie Hybrydowe:** Połączenie wyszukiwania wektorowego z pełnotekstowym (BM25) w celu lepszej obsługi specyficznych nazw własnych.
 
 ---
 *Projekt zrealizowany w ramach benchmarkingu i optymalizacji systemów RAG dla sektora bankowego.*
