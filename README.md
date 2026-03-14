@@ -2,7 +2,7 @@
 # 🏦 BankBot RAG: System Automatycznej Obsługi Klienta Bankowego
 
 ## 📖 Opis Projektu
-Projekt to zaawansowany system typu **RAG (Retrieval-Augmented Generation)**, zaprojektowany do precyzyjnego udzielania odpowiedzi na pytania dotyczące oferty bankowej (opłaty, prowizje, regulaminy). System wykorzystuje wyszukiwanie semantyczne (Vector Search) oraz modele językowe klasy Enterprise, aby dostarczać rzetelne informacje w oparciu o autentyczne dokumenty Santander Bank Polska.
+Projekt to zaawansowany system typu **RAG (Retrieval-Augmented Generation)**, zaprojektowany do precyzyjnego udzielania odpowiedzi na pytania dotyczące oferty bankowej (opłaty, prowizje, regulaminy). System łączy potęgę wyszukiwania semantycznego (Vector Search) z zaawansowanym wnioskowaniem modeli językowych klasy Enterprise, co pozwala na automatyzację obsługi klienta przy zachowaniu najwyższej wiarygodności danych.
 
 
 
@@ -11,32 +11,23 @@ Projekt to zaawansowany system typu **RAG (Retrieval-Augmented Generation)**, za
 Projekt składa się z trzech modułów, które automatyzują pełny cykl życia systemu AI:
 
 ### 1. `ingest.py` (Procesowanie Danych)
-* **Zadanie:** Ekstrakcja wiedzy z dokumentów PDF i budowa bazy wektorowej.
-* **Technologia:** Wykorzystuje **LangChain** do dzielenia tekstu (chunking) oraz model **text-embedding-004** (Google) do tworzenia reprezentacji wektorowych.
-* **Wynik:** Lokalna baza **ChromaDB**, umożliwiająca wyszukiwanie kontekstowe zamiast prostego dopasowania słów kluczowych.
+* **Zadanie:** Ekstrakcja wiedzy z surowych dokumentów PDF (TOiP, regulaminy) i budowa bazy wiedzy.
+* **Technologia:** Wykorzystuje **LangChain** do zaawansowanego dzielenia tekstu (chunking) oraz model **text-embedding-004** (Google) do tworzenia wektorowych reprezentacji znaczenia.
+* **Wynik:** Lokalna baza wektorowa **ChromaDB**, umożliwiająca błyskawiczne przeszukiwanie dokumentów na podstawie kontekstu, a nie tylko słów kluczowych.
 
 ### 2. `bank_bot.py` (Silnik Konwersacyjny)
-* **Zadanie:** Główny mózg bota łączący bazę wiedzy z modelem **Gemini 2.0 Flash**.
-* **Logika:** Implementuje łańcuch RAG, który pobiera relewantne fragmenty dokumentów i wstrzykuje je do bezpiecznego promptu systemowego.
-* **Monitoring:** Posiada wbudowaną funkcję `invoke_with_metrics`, mierzącą opóźnienie (latency) oraz liczbę pobranych źródeł (chunks) dla każdego zapytania.
+* **Zadanie:** Główny silnik bota łączący bazę wiedzy z modelem **Gemini 2.0 Flash**.
+* **Logika:** Implementuje łańcuch RAG, który dla każdego zapytania pobiera najbardziej relewantne fragmenty dokumentów i wstrzykuje je do bezpiecznego promptu systemowego.
+* **Monitoring:** Zawiera funkcję `invoke_with_metrics`, która w czasie rzeczywistym monitoruje opóźnienie (latency) oraz liczbę pobranych źródeł (chunks).
 
-### 3. `test_runner.py` (Moduł Audytu i Ewaluacji)
-* **Zadanie:** Zautomatyzowany benchmark jakości i wydajności.
-* **Metodologia LLM-as-a-Judge:** Wykorzystuje model **Gemini 2.5 Pro** jako niezależnego audytora, który ocenia merytoryczną poprawność odpowiedzi bota w skali 1-5 na podstawie bazy 60 rzeczywistych przypadków testowych.
-
----
-
-## 📏 Metodologia Pomiarowa (Kluczowe Metryki)
-
-System jest monitorowany w trzech kluczowych wymiarach:
-
-1.  **Merytoryka (Accuracy):**
-    * **Context Hit Rate:** Czy silnik odnalazł właściwy fragment dokumentu?
-    * **Answer Correctness:** Porównanie odpowiedzi bota z wzorcem przy użyciu zaawansowanego modelu oceniającego.
-2.  **Wydajność (Performance):**
-    * **Latency (Opóźnienie):** Czas odpowiedzi (kluczowy dla standardów UX w sektorze finansowym).
-3.  **Ekonomia (Cloud FinOps):**
-    * **Cost per Query:** Precyzyjne wyliczenie kosztu zapytania na podstawie zużycia tokenów (input/output).
+### 3. `test_runner.py` (Moduł Audytu i Zaawansowanej Ewaluacji)
+* **Zadanie:** Kompleksowy, zautomatyzowany benchmark jakościowy (Quality Assurance) oraz wydajnościowy całego potoku RAG.
+* **Metodologia LLM-as-a-Judge:** W projekcie zaimplementowano podejście, w którym model wyższej klasy (**Gemini 2.5 Pro**) pełni rolę niezależnego audytora. Sędzia analizuje odpowiedzi modelu bazowego i porównuje je ze "złotym zbiorem" (Golden Dataset) 60 rzeczywistych przypadków testowych.
+* **Mierzone metryki:**
+    * **Answer Correctness (Merytoryka):** Zgodność odpowiedzi z faktami w dokumentach.
+    * **Faithfulness / Groundedness (Wierność):** Weryfikacja, czy bot nie generuje halucynacji.
+    * **Retrieval Hit Rate:** Skuteczność odnajdywania właściwych dokumentów.
+    * **Performance & FinOps:** Monitorowanie czasu odpowiedzi (Latency) oraz kosztu jednostkowego zapytania (Cost per Query).
 
 ---
 
@@ -56,7 +47,7 @@ System jest monitorowany w trzech kluczowych wymiarach:
 ### Szczegółowa Analiza Filarów RAG
 
 #### 1. Filar Retrieval (Wyszukiwanie)
-* **Wnioski:** System niemal bezbłędnie (ponad 98%) odnajduje właściwe dokumenty w bazie.
+* **Wnioski:** System niemal bezbłędnie (ponad 98%) odnajduje właściwe dokumenty w bazie wektorowej.
 * **Knowledge Gaps:** Audyt wykazał brak danych dla produktu "Konto Jakie Chcę" (brak pliku źródłowego). System zachował się poprawnie – zamiast halucynować, poinformował o braku informacji, co jest krytyczne dla bezpieczeństwa bankowego.
 
 #### 2. Filar Generation (Jakość AI)
@@ -64,8 +55,5 @@ System jest monitorowany w trzech kluczowych wymiarach:
 * **Obszary do poprawy:** Niższe oceny (1/5) pojawiają się przy zapytaniach wymagających syntezy wiedzy z wielu stron regulaminu jednocześnie (np. złożone kwestie spadkowe). Rekomendowane jest zwiększenie okna kontekstowego dla tych zagadnień.
 
 #### 3. Filar Performance & Business
-* **UX:** Średnie opóźnienie **1.35s** pozwala na płynną, naturalną interakcję z klientem bez "efektu czekania".
-* **Skalowalność:** Koszt jednostkowy zapytania (**$0.0027**) udowadnia, że model Gemini 2.0 Flash zapewnia bezkonkurencyjny stosunek jakości do ceny w zastosowaniach masowych.
-
----
-*Projekt zrealizowany w ramach benchmarkingu i optymalizacji systemów RAG dla sektora bankowego.*
+* **UX:** Średnie opóźnienie **1.35s** pozwala na natychmiastową interakcję z klientem bez "efektu czekania".
+* **Skalowalność:** Koszt jednostkowy zapytania (**$0.0027**) udowadnia, że model Gemini 2.0 Flash zapewnia najlepszy stosunek jakości do ceny w zastosowaniach Enterprise.
