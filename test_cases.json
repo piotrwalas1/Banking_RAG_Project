@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "prompt": "Ile kosztuje historia obrotów na rachunku za dowolny miesiąc, jeśli korzystam z Santander internet?",
+    "expected_behavior": "10 zł za każdy miesiąc."
+  },
+  {
+    "id": 2,
+    "prompt": "Czy na koncie wspólnym można ustanowić dyspozycję wkładem na wypadek śmierci?",
+    "expected_behavior": "Nie, do konta wspólnego nie można złożyć takiej dyspozycji."
+  },
+  {
+    "id": 3,
+    "prompt": "Czy posiadacz karty może otrzymać zwrot środków, jeśli wyraził bezpośrednią zgodę na transakcję?",
+    "expected_behavior": "Nie, jeśli wyraził zgodę i otrzymał informację o transakcji 4 tygodnie wcześniej."
+  },
+  {
+    "id": 4,
+    "prompt": "Kto jest administratorem danych osobowych zgodnie z polityką?",
+    "expected_behavior": "Santander Bank Polska S.A. wraz z wyodrębnionymi jednostkami (np. Biuro Maklerskie)."
+  },
+  {
+    "id": 5,
+    "prompt": "Do jakiej kwoty małoletni powyżej 13 lat może dysponować środkami w ramach zwykłego zarządu?",
+    "expected_behavior": "Do 8 000 zł miesięcznie."
+  },
+  {
+    "id": 6,
+    "prompt": "Jaki kurs jest stosowany do przeliczenia opłaty w walucie obcej, gdy opłata w tabeli podana jest w złotych?",
+    "expected_behavior": "Średni kurs NBP z dnia pobrania opłaty, z wyjątkiem obrotu dewizowego (kurs z dnia poprzedniego)."
+  },
+  {
+    "id": 7,
+    "prompt": "Czy dziecko w wieku 10 lat może płacić kartą w internecie?",
+    "expected_behavior": "Nie, osoby w wieku 7-13 lat nie mogą robić transakcji na odległość."
+  },
+  {
+    "id": 8,
+    "prompt": "Jak można skontaktować się z bankiem w sprawie ochrony danych osobowych?",
+    "expected_behavior": "Listownie (al. Jana Pawła II 17, Warszawa), telefonicznie (1 9999) lub e-mailowo (kontakt@santander.pl)."
+  },
+  {
+    "id": 9,
+    "prompt": "Co się dzieje ze środkami na koncie wspólnym w przypadku śmierci jednego z posiadaczy?",
+    "expected_behavior": "Umowa nie wygasa, a środki pozostają do dyspozycji pozostałych współposiadaczy."
+  },
+  {
+    "id": 10,
+    "prompt": "Ile wynosi opłata za duplikat wyciągu dla Konta oszczędnościowego Select?",
+    "expected_behavior": "5 zł."
+  },
+  {
+    "id": 11,
+    "prompt": "Od kiedy obowiązuje regulamin kart debetowych?",
+    "expected_behavior": "Od 16 czerwca 2025 roku."
+  },
+  {
+    "id": 12,
+    "prompt": "Czym jest FATCA według definicji banku?",
+    "expected_behavior": "Regulacja USA dotycząca ujawniania informacji o rachunkach zagranicznych dla celów podatkowych."
+  },
+  {
+    "id": 13,
+    "prompt": "Kiedy bank może odmówić realizacji zlecenia stałego?",
+    "expected_behavior": "Jeśli na koncie nie ma wystarczających środków dzień przed terminem wykonania."
+  },
+  {
+    "id": 14,
+    "prompt": "Ile kosztuje przelew Elixir w placówce, jeśli celem jest opłacenie nabycia jednostek funduszy inwestycyjnych przez bank?",
+    "expected_behavior": "0 zł (nie pobiera się opłaty)."
+  },
+  {
+    "id": 15,
+    "prompt": "W jakich sytuacjach posiadacz karty nie odpowiada za nieautoryzowane transakcje?",
+    "expected_behavior": "Gdy bank nie wymagał silnego uwierzytelnienia (chyba że działanie było umyślne)."
+  },
+  {
+    "id": 16,
+    "prompt": "Kogo bank rozumie pod pojęciem 'Ty' w polityce prywatności?",
+    "expected_behavior": "Każdą osobę fizyczną, z którą bank wchodzi w interakcję (nie tylko klienci)."
+  },
+  {
+    "id": 17,
+    "prompt": "Jaki jest limit kwotowy dla przelewu krajowego w złotych, powyżej którego musi on iść systemem SORBNET?",
+    "expected_behavior": "Powyżej 1 000 000 zł."
+  },
+  {
+    "id": 18,
+    "prompt": "Czy pobierana jest opłata za wypłatę gotówki kartą w bankomatach Banco Santander w Portugalii?",
+    "expected_behavior": "0 zł (nie pobiera się opłaty ani prowizji za przewalutowanie)."
+  },
+  {
+    "id": 19,
+    "prompt": "Jakimi kanałami można zgłosić utratę lub zniszczenie karty?",
+    "expected_behavior": "Infolinia, placówka, bankowość internetowa/mobilna lub lokalne centrum Visa."
+  },
+  {
+    "id": 20,
+    "prompt": "Gdzie w dokumencie wyjaśnione są terminy takie jak EOG czy RODO?",
+    "expected_behavior": "W Słowniczku na końcu dokumentu."
+  },
+  {
+    "id": 21,
+    "prompt": "Ile czasu ma bank na zwrot kwoty autoryzowanej transakcji po otrzymaniu wniosku?",
+    "expected_behavior": "10 dni roboczych na zwrot lub podanie uzasadnienia odmowy."
+  },
+  {
+    "id": 22,
+    "prompt": "Kiedy pobierana jest opłata za prowadzenie Konta Santander?",
+    "expected_behavior": "10. dnia miesiąca za miesiąc poprzedni."
+  },
+  {
+    "id": 23,
+    "prompt": "Co oznacza pojęcie 'zablokowanie karty' w słowniczku?",
+    "expected_behavior": "Czasowe wstrzymanie możliwości wykonywania transakcji przetwarzanych online."
+  },
+  {
+    "id": 24,
+    "prompt": "Jakie podmioty wchodzą w skład Grupy Santander Bank Polska?",
+    "expected_behavior": "Santander Bank Polska S.A. oraz podmioty powiązane kapitałowo lub organizacyjnie."
+  },
+  {
+    "id": 25,
+    "prompt": "Czy 10-latek może samodzielnie zlecić przelew w oddziale?",
+    "expected_behavior": "Nie, osoby poniżej 13 lat mogą korzystać z konta tylko w ograniczonym zakresie na wniosek przedstawiciela."
+  },
+  {
+    "id": 26,
+    "prompt": "Ile wynosi prowizja za wcześniejszą spłatę kredytu gotówkowego?",
+    "expected_behavior": "Należy wskazać stawkę z tabeli lub informację o braku prowizji zależnie od konkretnego wariantu kredytu."
+  },
+  {
+    "id": 27,
+    "prompt": "Jakie karty mogą być wydane dziecku w wieku 8 lat?",
+    "expected_behavior": "Karta Dopasowana Mastercard lub Karta Dopasowana Visa."
+  },
+  {
+    "id": 28,
+    "prompt": "Czy polityka prywatności dotyczy osób, które tylko udzielają zabezpieczeń kredytu?",
+    "expected_behavior": "Tak, polityka dotyczy m.in. osób udzielających zabezpieczeń."
+  },
+  {
+    "id": 29,
+    "prompt": "Jaki jest termin uznania rachunku odbiorcy dla przelewu krajowego w złotych zleconego w formie papierowej?",
+    "expected_behavior": "Do końca drugiego dnia roboczego po dniu otrzymania zlecenia."
+  },
+  {
+    "id": 30,
+    "prompt": "Jaka jest opłata za uznanie rachunku emeryturą z zagranicy dla posiadacza Konta NET?",
+    "expected_behavior": "30 zł."
+  },
+  {
+    "id": 31,
+    "prompt": "Czym różni się 'zablokowanie' od 'zastrzeżenia' karty?",
+    "expected_behavior": "Zablokowanie jest czasowe, zastrzeżenie jest nieodwołalne."
+  },
+  {
+    "id": 32,
+    "prompt": "Co obejmuje skrót EOG w słowniczku polityki?",
+    "expected_behavior": "Kraje UE oraz Islandię, Norwegię i Liechtenstein."
+  },
+  {
+    "id": 33,
+    "prompt": "Kto może poświadczyć za zgodność z oryginałem dokumenty przesyłane z zagranicy?",
+    "expected_behavior": "Notariusz lub inna instytucja z takimi uprawnieniami w danym państwie."
+  },
+  {
+    "id": 34,
+    "prompt": "Ile kosztuje historia obrotów za poprzedni miesiąc, jeśli nie mam dostępu do bankowości online?",
+    "expected_behavior": "0 zł."
+  },
+  {
+    "id": 35,
+    "prompt": "W jakim terminie bank udostępnia informacje o transakcjach po obciążeniu konta?",
+    "expected_behavior": "Raz w miesiącu za poprzedni miesiąc kalendarzowy."
+  },
+  {
+    "id": 36,
+    "prompt": "Gdzie znajduje się siedziba administratora danych?",
+    "expected_behavior": "W Warszawie przy al. Jana Pawła II 17."
+  },
+  {
+    "id": 37,
+    "prompt": "W jakim terminie odnawiany jest limit zwykłego zarządu dla osoby małoletniej?",
+    "expected_behavior": "Pierwszego dnia każdego miesiąca o godzinie 5:00."
+  },
+  {
+    "id": 38,
+    "prompt": "Od kiedy obowiązuje Tabela opłat i prowizji przedstawiona w dokumencie?",
+    "expected_behavior": "Od 28 listopada 2025 r."
+  },
+  {
+    "id": 39,
+    "prompt": "Jaka usługa jest stosowana do potwierdzania płatności kartą w internecie?",
+    "expected_behavior": "Usługa 3D-Secure."
+  },
+  {
+    "id": 40,
+    "prompt": "Czy polityka prywatności dotyczy reprezentantów spółek?",
+    "expected_behavior": "Tak, dokument wymienia przedstawicieli i reprezentantów."
+  },
+  {
+    "id": 41,
+    "prompt": "Jak bank oblicza opłatę za prowadzenie konta w miesiącu, w którym jest ono zamykane?",
+    "expected_behavior": "Proporcjonalnie za okres od 1. dnia miesiąca do dnia poprzedzającego zamknięcie."
+  },
+  {
+    "id": 42,
+    "prompt": "Czy bank może dzwonić do klienta w celu potwierdzenia autoryzacji transakcji?",
+    "expected_behavior": "Tak, bank może skontaktować się telefonicznie, aby potwierdzić wybrane transakcje."
+  },
+  {
+    "id": 43,
+    "prompt": "Do kogo należy się zgłosić w celu realizacji praw wynikających z RODO?",
+    "expected_behavior": "Do administratora danych (Santander Bank Polska S.A.) przez wskazane kanały kontaktu."
+  },
+  {
+    "id": 44,
+    "prompt": "Jakie są konsekwencje braku środków na rachunku oszczędnościowym przez okres jednego roku?",
+    "expected_behavior": "Bank może wypowiedzieć umowę i zamknąć konto."
+  },
+  {
+    "id": 45,
+    "prompt": "Ile wynosi opłata za aneks do umowy kredytu restrukturyzacyjnego?",
+    "expected_behavior": "20 zł."
+  },
+  {
+    "id": 46,
+    "prompt": "Kiedy następuje moment otrzymania zlecenia płatniczego kartą przez bank?",
+    "expected_behavior": "W momencie, w którym bank otrzyma dokumenty rozliczeniowe."
+  },
+  {
+    "id": 47,
+    "prompt": "Czym jest RODO według dokumentu?",
+    "expected_behavior": "Rozporządzenie UE z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych."
+  },
+  {
+    "id": 48,
+    "prompt": "Czy administracja USA może mieć dostęp do danych przy przelewach SWIFT?",
+    "expected_behavior": "Tak, w celu walki z terroryzmem, zgodnie z porozumieniami o ochronie danych."
+  },
+  {
+    "id": 49,
+    "prompt": "Jaki jest koszt polecenia przelewu SEPA przychodzącego na Konto Elite z kraju EOG innego niż Polska (w euro)?",
+    "expected_behavior": "0 zł."
+  },
+  {
+    "id": 50,
+    "prompt": "Gdzie szukać definicji pojęć użytych w regulaminie kart?",
+    "expected_behavior": "W Słowniczku na końcu dokumentu (od strony 38)."
+  },
+  {
+    "id": 51,
+    "prompt": "Czy Biuro Maklerskie jest osobnym administratorem w tej polityce?",
+    "expected_behavior": "Nie, jest wymienione jako jednostka organizacyjna Santander Bank Polska S.A."
+  },
+  {
+    "id": 52,
+    "prompt": "W jakim języku prowadzona jest komunikacja i zawierana umowa?",
+    "expected_behavior": "W języku polskim."
+  },
+  {
+    "id": 53,
+    "prompt": "Ile kosztuje wpłata gotówki na rachunek, jeśli z umowy wynika, że opłatę ponosi odbiorca?",
+    "expected_behavior": "0 zł dla wpłacającego."
+  },
+  {
+    "id": 54,
+    "prompt": "Jak bank traktuje transakcje inicjowane przez odbiorcę (np. abonamenty)?",
+    "expected_behavior": "Są one inicjowane za pośrednictwem odbiorcy po udzieleniu mu zgody przez klienta."
+  },
+  {
+    "id": 55,
+    "prompt": "Jak bank oznacza pojęcia, które wyjaśnia w słowniczku?",
+    "expected_behavior": "Pogrubia je przy pierwszym użyciu."
+  },
+  {
+    "id": 56,
+    "prompt": "Co musi zrobić 14-latek, aby samodzielnie zawrzeć umowę o konto?",
+    "expected_behavior": "Musi posiadać pisemną zgodę przedstawiciela ustawowego."
+  },
+  {
+    "id": 57,
+    "prompt": "Czy bank pobiera opłatę za spłatę wierzytelności banku z Konta systematycznego?",
+    "expected_behavior": "Tak, zwolnienie z opłat za spłatę wierzytelności nie dotyczy kont oszczędnościowych i systematycznych."
+  },
+  {
+    "id": 58,
+    "prompt": "Czy użytkownik karty może samodzielnie zmienić limity transakcyjne?",
+    "expected_behavior": "Zależy od uprawnień nadanych przez posiadacza konta."
+  },
+  {
+    "id": 59,
+    "prompt": "W jakim celu zbierane są dane osobowe według wstępu do dokumentu?",
+    "expected_behavior": "Aby wyjaśnić, po co bank zbiera dane i co z nimi robi."
+  },
+  {
+    "id": 60,
+    "prompt": "Kto nadzoruje działalność banku?",
+    "expected_behavior": "Komisja Nadzoru Finansowego."
+  }
+]
