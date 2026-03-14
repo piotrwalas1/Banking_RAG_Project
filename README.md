@@ -1,4 +1,3 @@
-# Banking_RAG_Project - w budowie :)
 # 🏦 BankBot RAG: System Automatycznej Obsługi Klienta Bankowego
 
 ## 📖 Opis Projektu
