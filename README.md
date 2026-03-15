@@ -72,7 +72,7 @@ System posiada zintegrowany interfejs analityczny zbudowany w **Streamlit**, kt�
 ### Kluczowe elementy raportu:
 
 * **KPI Overview:** Szybki podgląd na najważniejsze wskaźniki:
-    * **Średnia Ocena (3.67/5):** Wynik merytoryczny wygenerowany przez model Gemini 1.5 Pro.
+    * **Średnia Ocena (3.67/5):** Wynik merytoryczny wygenerowany przez model Gemini 2.5 Pro.
     * **Hit Rate (98.33%):** Dowód na niemal idealną skuteczność silnika wyszukiwania wektorowego.
     * **Total Cost ($0.16):** Sumaryczny koszt przeprowadzenia pełnego audytu (60 pytań), co podkreśla ekonomiczność rozwiązania.
 * **Score Distribution:** Wykres słupkowy pokazujący rozkład jakości odpowiedzi. Pozwala na szybką identyfikację pytań, przy których model uzyskał niższe noty (np. oceny 1 i 3), co ułatwia debugowanie bazy wiedzy.
