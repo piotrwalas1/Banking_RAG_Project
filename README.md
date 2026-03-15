@@ -86,7 +86,7 @@ System posiada zintegrowany interfejs analityczny zbudowany w **Streamlit**, kt�
 Kluczowym elementem projektu była optymalizacja odpowiedzi modelu poprzez testy porównawcze różnych strategii promptingu. Przeprowadzono ewaluację na zbiorze **60 pytań testowych** dla trzech wariantów:
 
 ### Opis techniczny promptów:
-* **V0 - Baseline (Standard):** Prosta instrukcja udzielenia odpowiedzi na podstawie kontekstu bez dodatkowych wytycznych logicznych. **Prompt:** "Jesteś ekspertem bankowym Santander. Odpowiadaj konkretnie na podstawie dokumentów.\n\n"
+* **V0 - Baseline (Standard):** Prosta instrukcja udzielenia odpowiedzi na podstawie kontekstu bez dodatkowych wytycznych logicznych. **Prompt:** "Jesteś ekspertem bankowym. Odpowiadaj konkretnie na podstawie dokumentów.\n\n"
 * **V1 - Analytical Expert (CoT):** Wprowadzenie techniki *Chain-of-Thought*. Model został poinstruowany, aby najpierw zidentyfikować produkt, przejrzeć warunki, a dopiero potem sformułować odpowiedź. **Prompt:** "Jesteś ekspertem ds. analizy regulaminów bankowych Santander Bank Polska. 
 Twoim zadaniem jest udzielenie precyzyjnej odpowiedzi na podstawie dostarczonego kontekstu.
 Zastosuj metodę Chain-of-Thought:
