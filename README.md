@@ -113,11 +113,14 @@ Twoja odpowiedź musi być bezpośrednia. Jeśli informacja jest niejednoznaczna
  <p align="center">
   <img src="https://github.com/piotrwalas1/Banking_RAG_Project/blob/main/dashboardv0v1.png" width="600" title="raport1">
 </p>
-Porównanie efektywności technik promptingu (V0 vs V1)
+
+**Porównanie efektywności technik promptingu (V0 vs V1)**
+
  <p align="center">
   <img src="https://github.com/piotrwalas1/Banking_RAG_Project/blob/main/dashboardv0v2.png" width="600" title="raport1">
 </p>
-Porównanie efektywności technik promptingu (V0 vs V2)
+
+**Porównanie efektywności technik promptingu (V0 vs V2)**
 
 ### 3. Wnioski z optymalizacji:
 - **Wzrost jakości:** Wersja **V2** poprawiła jakość odpowiedzi o **~6%** względem wersji bazowej (V0).
