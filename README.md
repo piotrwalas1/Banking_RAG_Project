@@ -66,7 +66,7 @@ Projekt składa się z trzech modułów, które automatyzują pełny cykl życia
 System posiada zintegrowany interfejs analityczny zbudowany w **Streamlit**, który pozwala na interpretację danych z audytu w czasie rzeczywistym.
 
  <p align="center">
-  <img src="https://https://github.com/piotrwalas1/Banking_RAG_Project/blob/main/dashboard_preview.png" width="600" title="raport1">
+  <img src="https://github.com/piotrwalas1/Banking_RAG_Project/blob/main/dashboard_preview.png" width="600" title="raport1">
 </p>
 
 ### Kluczowe elementy raportu:
