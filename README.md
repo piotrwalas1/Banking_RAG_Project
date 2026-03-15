@@ -87,9 +87,9 @@ Kluczowym elementem projektu była optymalizacja odpowiedzi modelu poprzez testy
 
 ### Opis techniczny promptów:
 * **V0 - "Zero-Shot Baseline" (Standard):** Prosta instrukcja udzielenia odpowiedzi na podstawie kontekstu bez dodatkowych wytycznych logicznych.
- * **Prompt:** "Jesteś ekspertem bankowym. Odpowiadaj konkretnie na podstawie dokumentów.\n\n"
+  * **Prompt:** "Jesteś ekspertem bankowym. Odpowiadaj konkretnie na podstawie dokumentów.\n\n"
 * **V1 - Analytical Expert (CoT):** Wprowadzenie techniki *Chain-of-Thought*. Model został poinstruowany, aby najpierw zidentyfikować produkt, przejrzeć warunki, a dopiero potem sformułować odpowiedź.
- * **Prompt:** "Jesteś ekspertem ds. analizy regulaminów bankowych Bank Polska. 
+  * **Prompt:** "Jesteś ekspertem ds. analizy regulaminów bankowych Bank Polska. 
 Twoim zadaniem jest udzielenie precyzyjnej odpowiedzi na podstawie dostarczonego kontekstu.
 Zastosuj metodę Chain-of-Thought:
 1. IDENTYFIKACJA: Określ, o jaki produkt (np. Konto Select, karta Visa) i jaką czynność (np. przelew, wypłata) pyta klient.
