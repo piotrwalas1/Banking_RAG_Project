@@ -1,0 +1,490 @@
+{
+    "summary": {
+        "avg_relevance_score": 3.73,
+        "avg_latency_sec": 1.775,
+        "hit_rate_percent": 100.0,
+        "total_audit_cost_usd": 0.17452
+    },
+    "details": [
+        {
+            "id": 1,
+            "query": "Ile kosztuje historia obrotów na rachunku za dowolny miesiąc, jeśli korzystam z Santander internet?",
+            "score": 5,
+            "latency": 6.908,
+            "is_hit": true,
+            "cost_usd": 0.004402
+        },
+        {
+            "id": 2,
+            "query": "Czy na koncie wspólnym można ustanowić dyspozycję wkładem na wypadek śmierci?",
+            "score": 1,
+            "latency": 1.636,
+            "is_hit": true,
+            "cost_usd": 0.002671
+        },
+        {
+            "id": 3,
+            "query": "Czy posiadacz karty może otrzymać zwrot środków, jeśli wyraził bezpośrednią zgodę na transakcję?",
+            "score": 2,
+            "latency": 2.809,
+            "is_hit": true,
+            "cost_usd": 0.003185
+        },
+        {
+            "id": 4,
+            "query": "Kto jest administratorem danych osobowych zgodnie z polityką?",
+            "score": 4,
+            "latency": 1.219,
+            "is_hit": true,
+            "cost_usd": 0.002587
+        },
+        {
+            "id": 5,
+            "query": "Do jakiej kwoty małoletni powyżej 13 lat może dysponować środkami w ramach zwykłego zarządu?",
+            "score": 1,
+            "latency": 1.572,
+            "is_hit": true,
+            "cost_usd": 0.002713
+        },
+        {
+            "id": 6,
+            "query": "Jaki kurs jest stosowany do przeliczenia opłaty w walucie obcej, gdy opłata w tabeli podana jest w złotych?",
+            "score": 5,
+            "latency": 1.857,
+            "is_hit": true,
+            "cost_usd": 0.003096
+        },
+        {
+            "id": 7,
+            "query": "Czy dziecko w wieku 10 lat może płacić kartą w internecie?",
+            "score": 5,
+            "latency": 1.173,
+            "is_hit": true,
+            "cost_usd": 0.00261
+        },
+        {
+            "id": 8,
+            "query": "Jak można skontaktować się z bankiem w sprawie ochrony danych osobowych?",
+            "score": 5,
+            "latency": 2.11,
+            "is_hit": true,
+            "cost_usd": 0.003122
+        },
+        {
+            "id": 9,
+            "query": "Co się dzieje ze środkami na koncie wspólnym w przypadku śmierci jednego z posiadaczy?",
+            "score": 1,
+            "latency": 1.589,
+            "is_hit": true,
+            "cost_usd": 0.002638
+        },
+        {
+            "id": 10,
+            "query": "Ile wynosi opłata za duplikat wyciągu dla Konta oszczędnościowego Select?",
+            "score": 5,
+            "latency": 1.732,
+            "is_hit": true,
+            "cost_usd": 0.002882
+        },
+        {
+            "id": 11,
+            "query": "Od kiedy obowiązuje regulamin kart debetowych?",
+            "score": 5,
+            "latency": 2.665,
+            "is_hit": true,
+            "cost_usd": 0.002819
+        },
+        {
+            "id": 12,
+            "query": "Czym jest FATCA według definicji banku?",
+            "score": 5,
+            "latency": 1.726,
+            "is_hit": true,
+            "cost_usd": 0.002976
+        },
+        {
+            "id": 13,
+            "query": "Kiedy bank może odmówić realizacji zlecenia stałego?",
+            "score": 1,
+            "latency": 1.089,
+            "is_hit": true,
+            "cost_usd": 0.002654
+        },
+        {
+            "id": 14,
+            "query": "Ile kosztuje przelew Elixir w placówce, jeśli celem jest opłacenie nabycia jednostek funduszy inwestycyjnych przez bank?",
+            "score": 5,
+            "latency": 2.193,
+            "is_hit": true,
+            "cost_usd": 0.003122
+        },
+        {
+            "id": 15,
+            "query": "W jakich sytuacjach posiadacz karty nie odpowiada za nieautoryzowane transakcje?",
+            "score": 1,
+            "latency": 1.219,
+            "is_hit": true,
+            "cost_usd": 0.002663
+        },
+        {
+            "id": 16,
+            "query": "Kogo bank rozumie pod pojęciem 'Ty' w polityce prywatności?",
+            "score": 5,
+            "latency": 1.634,
+            "is_hit": true,
+            "cost_usd": 0.003012
+        },
+        {
+            "id": 17,
+            "query": "Jaki jest limit kwotowy dla przelewu krajowego w złotych, powyżej którego musi on iść systemem SORBNET?",
+            "score": 5,
+            "latency": 1.195,
+            "is_hit": true,
+            "cost_usd": 0.002677
+        },
+        {
+            "id": 18,
+            "query": "Czy pobierana jest opłata za wypłatę gotówki kartą w bankomatach Banco Santander w Portugalii?",
+            "score": 5,
+            "latency": 2.077,
+            "is_hit": true,
+            "cost_usd": 0.003051
+        },
+        {
+            "id": 19,
+            "query": "Jakimi kanałami można zgłosić utratę lub zniszczenie karty?",
+            "score": 2,
+            "latency": 1.163,
+            "is_hit": true,
+            "cost_usd": 0.00266
+        },
+        {
+            "id": 20,
+            "query": "Gdzie w dokumencie wyjaśnione są terminy takie jak EOG czy RODO?",
+            "score": 5,
+            "latency": 1.49,
+            "is_hit": true,
+            "cost_usd": 0.002776
+        },
+        {
+            "id": 21,
+            "query": "Ile czasu ma bank na zwrot kwoty autoryzowanej transakcji po otrzymaniu wniosku?",
+            "score": 5,
+            "latency": 1.888,
+            "is_hit": true,
+            "cost_usd": 0.002961
+        },
+        {
+            "id": 22,
+            "query": "Kiedy pobierana jest opłata za prowadzenie Konta Santander?",
+            "score": 1,
+            "latency": 1.219,
+            "is_hit": true,
+            "cost_usd": 0.002671
+        },
+        {
+            "id": 23,
+            "query": "Co oznacza pojęcie 'zablokowanie karty' w słowniczku?",
+            "score": 5,
+            "latency": 1.299,
+            "is_hit": true,
+            "cost_usd": 0.002749
+        },
+        {
+            "id": 24,
+            "query": "Jakie podmioty wchodzą w skład Grupy Santander Bank Polska?",
+            "score": 1,
+            "latency": 2.125,
+            "is_hit": true,
+            "cost_usd": 0.003159
+        },
+        {
+            "id": 25,
+            "query": "Czy 10-latek może samodzielnie zlecić przelew w oddziale?",
+            "score": 1,
+            "latency": 1.09,
+            "is_hit": true,
+            "cost_usd": 0.002667
+        },
+        {
+            "id": 26,
+            "query": "Ile wynosi prowizja za wcześniejszą spłatę kredytu gotówkowego?",
+            "score": 2,
+            "latency": 1.614,
+            "is_hit": true,
+            "cost_usd": 0.002786
+        },
+        {
+            "id": 27,
+            "query": "Jakie karty mogą być wydane dziecku w wieku 8 lat?",
+            "score": 2,
+            "latency": 1.368,
+            "is_hit": true,
+            "cost_usd": 0.002742
+        },
+        {
+            "id": 28,
+            "query": "Czy polityka prywatności dotyczy osób, które tylko udzielają zabezpieczeń kredytu?",
+            "score": 5,
+            "latency": 1.824,
+            "is_hit": true,
+            "cost_usd": 0.002986
+        },
+        {
+            "id": 29,
+            "query": "Jaki jest termin uznania rachunku odbiorcy dla przelewu krajowego w złotych zleconego w formie papierowej?",
+            "score": 1,
+            "latency": 1.351,
+            "is_hit": true,
+            "cost_usd": 0.002722
+        },
+        {
+            "id": 30,
+            "query": "Jaka jest opłata za uznanie rachunku emeryturą z zagranicy dla posiadacza Konta NET?",
+            "score": 2,
+            "latency": 2.515,
+            "is_hit": true,
+            "cost_usd": 0.003242
+        },
+        {
+            "id": 31,
+            "query": "Czym różni się 'zablokowanie' od 'zastrzeżenia' karty?",
+            "score": 5,
+            "latency": 1.717,
+            "is_hit": true,
+            "cost_usd": 0.003007
+        },
+        {
+            "id": 32,
+            "query": "Co obejmuje skrót EOG w słowniczku polityki?",
+            "score": 5,
+            "latency": 1.402,
+            "is_hit": true,
+            "cost_usd": 0.002829
+        },
+        {
+            "id": 33,
+            "query": "Kto może poświadczyć za zgodność z oryginałem dokumenty przesyłane z zagranicy?",
+            "score": 5,
+            "latency": 2.54,
+            "is_hit": true,
+            "cost_usd": 0.003293
+        },
+        {
+            "id": 34,
+            "query": "Ile kosztuje historia obrotów za poprzedni miesiąc, jeśli nie mam dostępu do bankowości online?",
+            "score": 5,
+            "latency": 2.053,
+            "is_hit": true,
+            "cost_usd": 0.003023
+        },
+        {
+            "id": 35,
+            "query": "W jakim terminie bank udostępnia informacje o transakcjach po obciążeniu konta?",
+            "score": 3,
+            "latency": 1.203,
+            "is_hit": true,
+            "cost_usd": 0.00275
+        },
+        {
+            "id": 36,
+            "query": "Gdzie znajduje się siedziba administratora danych?",
+            "score": 5,
+            "latency": 1.093,
+            "is_hit": true,
+            "cost_usd": 0.002619
+        },
+        {
+            "id": 37,
+            "query": "W jakim terminie odnawiany jest limit zwykłego zarządu dla osoby małoletniej?",
+            "score": 1,
+            "latency": 1.216,
+            "is_hit": true,
+            "cost_usd": 0.002664
+        },
+        {
+            "id": 38,
+            "query": "Od kiedy obowiązuje Tabela opłat i prowizji przedstawiona w dokumencie?",
+            "score": 5,
+            "latency": 1.126,
+            "is_hit": true,
+            "cost_usd": 0.002577
+        },
+        {
+            "id": 39,
+            "query": "Jaka usługa jest stosowana do potwierdzania płatności kartą w internecie?",
+            "score": 5,
+            "latency": 1.737,
+            "is_hit": true,
+            "cost_usd": 0.002876
+        },
+        {
+            "id": 40,
+            "query": "Czy polityka prywatności dotyczy reprezentantów spółek?",
+            "score": 5,
+            "latency": 1.854,
+            "is_hit": true,
+            "cost_usd": 0.003099
+        },
+        {
+            "id": 41,
+            "query": "Jak bank oblicza opłatę za prowadzenie konta w miesiącu, w którym jest ono zamykane?",
+            "score": 1,
+            "latency": 1.074,
+            "is_hit": true,
+            "cost_usd": 0.002686
+        },
+        {
+            "id": 42,
+            "query": "Czy bank może dzwonić do klienta w celu potwierdzenia autoryzacji transakcji?",
+            "score": 5,
+            "latency": 1.929,
+            "is_hit": true,
+            "cost_usd": 0.003026
+        },
+        {
+            "id": 43,
+            "query": "Do kogo należy się zgłosić w celu realizacji praw wynikających z RODO?",
+            "score": 5,
+            "latency": 2.118,
+            "is_hit": true,
+            "cost_usd": 0.003083
+        },
+        {
+            "id": 44,
+            "query": "Jakie są konsekwencje braku środków na rachunku oszczędnościowym przez okres jednego roku?",
+            "score": 1,
+            "latency": 1.068,
+            "is_hit": true,
+            "cost_usd": 0.002702
+        },
+        {
+            "id": 45,
+            "query": "Ile wynosi opłata za aneks do umowy kredytu restrukturyzacyjnego?",
+            "score": 5,
+            "latency": 1.54,
+            "is_hit": true,
+            "cost_usd": 0.002852
+        },
+        {
+            "id": 46,
+            "query": "Kiedy następuje moment otrzymania zlecenia płatniczego kartą przez bank?",
+            "score": 5,
+            "latency": 1.694,
+            "is_hit": true,
+            "cost_usd": 0.002854
+        },
+        {
+            "id": 47,
+            "query": "Czym jest RODO według dokumentu?",
+            "score": 5,
+            "latency": 1.523,
+            "is_hit": true,
+            "cost_usd": 0.002853
+        },
+        {
+            "id": 48,
+            "query": "Czy administracja USA może mieć dostęp do danych przy przelewach SWIFT?",
+            "score": 5,
+            "latency": 1.456,
+            "is_hit": true,
+            "cost_usd": 0.002832
+        },
+        {
+            "id": 49,
+            "query": "Jaki jest koszt polecenia przelewu SEPA przychodzącego na Konto Elite z kraju EOG innego niż Polska (w euro)?",
+            "score": 5,
+            "latency": 1.598,
+            "is_hit": true,
+            "cost_usd": 0.002881
+        },
+        {
+            "id": 50,
+            "query": "Gdzie szukać definicji pojęć użytych w regulaminie kart?",
+            "score": 4,
+            "latency": 1.438,
+            "is_hit": true,
+            "cost_usd": 0.002653
+        },
+        {
+            "id": 51,
+            "query": "Czy Biuro Maklerskie jest osobnym administratorem w tej polityce?",
+            "score": 5,
+            "latency": 1.919,
+            "is_hit": true,
+            "cost_usd": 0.003061
+        },
+        {
+            "id": 52,
+            "query": "W jakim języku prowadzona jest komunikacja i zawierana umowa?",
+            "score": 5,
+            "latency": 1.418,
+            "is_hit": true,
+            "cost_usd": 0.002812
+        },
+        {
+            "id": 53,
+            "query": "Ile kosztuje wpłata gotówki na rachunek, jeśli z umowy wynika, że opłatę ponosi odbiorca?",
+            "score": 5,
+            "latency": 1.636,
+            "is_hit": true,
+            "cost_usd": 0.002719
+        },
+        {
+            "id": 54,
+            "query": "Jak bank traktuje transakcje inicjowane przez odbiorcę (np. abonamenty)?",
+            "score": 4,
+            "latency": 3.739,
+            "is_hit": true,
+            "cost_usd": 0.003881
+        },
+        {
+            "id": 55,
+            "query": "Jak bank oznacza pojęcia, które wyjaśnia w słowniczku?",
+            "score": 5,
+            "latency": 2.935,
+            "is_hit": true,
+            "cost_usd": 0.003393
+        },
+        {
+            "id": 56,
+            "query": "Co musi zrobić 14-latek, aby samodzielnie zawrzeć umowę o konto?",
+            "score": 5,
+            "latency": 1.914,
+            "is_hit": true,
+            "cost_usd": 0.002919
+        },
+        {
+            "id": 57,
+            "query": "Czy bank pobiera opłatę za spłatę wierzytelności banku z Konta systematycznego?",
+            "score": 5,
+            "latency": 2.064,
+            "is_hit": true,
+            "cost_usd": 0.003217
+        },
+        {
+            "id": 58,
+            "query": "Czy użytkownik karty może samodzielnie zmienić limity transakcyjne?",
+            "score": 1,
+            "latency": 1.904,
+            "is_hit": true,
+            "cost_usd": 0.003136
+        },
+        {
+            "id": 59,
+            "query": "W jakim celu zbierane są dane osobowe według wstępu do dokumentu?",
+            "score": 1,
+            "latency": 1.219,
+            "is_hit": true,
+            "cost_usd": 0.002616
+        },
+        {
+            "id": 60,
+            "query": "Kto nadzoruje działalność banku?",
+            "score": 5,
+            "latency": 1.05,
+            "is_hit": true,
+            "cost_usd": 0.002605
+        }
+    ]
+}
