@@ -1,0 +1,61 @@
+id,query,score,latency,is_hit,cost_usd
+1,"Ile kosztuje historia obrotów na rachunku za dowolny miesiąc, jeśli korzystam z Santander internet?",5,4.652,True,0.003167
+2,Czy na koncie wspólnym można ustanowić dyspozycję wkładem na wypadek śmierci?,4,1.944,True,0.002818
+3,"Czy posiadacz karty może otrzymać zwrot środków, jeśli wyraził bezpośrednią zgodę na transakcję?",4,2.491,True,0.002753
+4,Kto jest administratorem danych osobowych zgodnie z polityką?,5,1.161,True,0.002648
+5,Do jakiej kwoty małoletni powyżej 13 lat może dysponować środkami w ramach zwykłego zarządu?,1,1.192,True,0.002657
+6,"Jaki kurs jest stosowany do przeliczenia opłaty w walucie obcej, gdy opłata w tabeli podana jest w złotych?",5,2.072,True,0.003214
+7,Czy dziecko w wieku 10 lat może płacić kartą w internecie?,5,1.12,True,0.002652
+8,Jak można skontaktować się z bankiem w sprawie ochrony danych osobowych?,5,1.911,True,0.003002
+9,Co się dzieje ze środkami na koncie wspólnym w przypadku śmierci jednego z posiadaczy?,1,1.163,True,0.00262
+10,Ile wynosi opłata za duplikat wyciągu dla Konta oszczędnościowego Select?,5,0.951,True,0.002593
+11,Od kiedy obowiązuje regulamin kart debetowych?,5,0.972,True,0.00261
+12,Czym jest FATCA według definicji banku?,5,1.317,True,0.002868
+13,Kiedy bank może odmówić realizacji zlecenia stałego?,1,1.001,True,0.002639
+14,"Ile kosztuje przelew Elixir w placówce, jeśli celem jest opłacenie nabycia jednostek funduszy inwestycyjnych przez bank?",5,1.855,True,0.002927
+15,W jakich sytuacjach posiadacz karty nie odpowiada za nieautoryzowane transakcje?,1,1.115,True,0.002669
+16,Kogo bank rozumie pod pojęciem 'Ty' w polityce prywatności?,5,1.776,True,0.002989
+17,"Jaki jest limit kwotowy dla przelewu krajowego w złotych, powyżej którego musi on iść systemem SORBNET?",5,1.26,True,0.002623
+18,Czy pobierana jest opłata za wypłatę gotówki kartą w bankomatach Banco Santander w Portugalii?,5,1.152,True,0.002693
+19,Jakimi kanałami można zgłosić utratę lub zniszczenie karty?,2,1.849,True,0.002728
+20,Gdzie w dokumencie wyjaśnione są terminy takie jak EOG czy RODO?,5,1.016,True,0.002611
+21,Ile czasu ma bank na zwrot kwoty autoryzowanej transakcji po otrzymaniu wniosku?,1,1.293,True,0.002756
+22,Kiedy pobierana jest opłata za prowadzenie Konta Santander?,1,1.212,True,0.002689
+23,Co oznacza pojęcie 'zablokowanie karty' w słowniczku?,5,0.965,True,0.002609
+24,Jakie podmioty wchodzą w skład Grupy Santander Bank Polska?,1,1.033,True,0.002643
+25,Czy 10-latek może samodzielnie zlecić przelew w oddziale?,1,0.987,True,0.002594
+26,Ile wynosi prowizja za wcześniejszą spłatę kredytu gotówkowego?,1,1.062,True,0.002601
+27,Jakie karty mogą być wydane dziecku w wieku 8 lat?,4,1.271,True,0.002772
+28,"Czy polityka prywatności dotyczy osób, które tylko udzielają zabezpieczeń kredytu?",1,1.436,True,0.002821
+29,Jaki jest termin uznania rachunku odbiorcy dla przelewu krajowego w złotych zleconego w formie papierowej?,1,0.953,False,0.00265
+30,Jaka jest opłata za uznanie rachunku emeryturą z zagranicy dla posiadacza Konta NET?,5,1.026,True,0.002617
+31,Czym różni się 'zablokowanie' od 'zastrzeżenia' karty?,4,1.151,True,0.002701
+32,Co obejmuje skrót EOG w słowniczku polityki?,5,1.054,True,0.002627
+33,Kto może poświadczyć za zgodność z oryginałem dokumenty przesyłane z zagranicy?,5,1.419,True,0.002795
+34,"Ile kosztuje historia obrotów za poprzedni miesiąc, jeśli nie mam dostępu do bankowości online?",5,1.118,True,0.002683
+35,W jakim terminie bank udostępnia informacje o transakcjach po obciążeniu konta?,5,1.14,True,0.002723
+36,Gdzie znajduje się siedziba administratora danych?,5,1.168,True,0.002632
+37,W jakim terminie odnawiany jest limit zwykłego zarządu dla osoby małoletniej?,2,1.093,True,0.002665
+38,Od kiedy obowiązuje Tabela opłat i prowizji przedstawiona w dokumencie?,5,0.964,True,0.002577
+39,Jaka usługa jest stosowana do potwierdzania płatności kartą w internecie?,5,1.19,True,0.002728
+40,Czy polityka prywatności dotyczy reprezentantów spółek?,5,1.036,True,0.00268
+41,"Jak bank oblicza opłatę za prowadzenie konta w miesiącu, w którym jest ono zamykane?",1,0.985,True,0.002677
+42,Czy bank może dzwonić do klienta w celu potwierdzenia autoryzacji transakcji?,4,1.052,True,0.00264
+43,Do kogo należy się zgłosić w celu realizacji praw wynikających z RODO?,5,1.122,True,0.002727
+44,Jakie są konsekwencje braku środków na rachunku oszczędnościowym przez okres jednego roku?,1,1.013,True,0.00267
+45,Ile wynosi opłata za aneks do umowy kredytu restrukturyzacyjnego?,5,1.005,True,0.002614
+46,Kiedy następuje moment otrzymania zlecenia płatniczego kartą przez bank?,5,1.32,True,0.002793
+47,Czym jest RODO według dokumentu?,5,1.293,True,0.002744
+48,Czy administracja USA może mieć dostęp do danych przy przelewach SWIFT?,5,1.234,True,0.002842
+49,Jaki jest koszt polecenia przelewu SEPA przychodzącego na Konto Elite z kraju EOG innego niż Polska (w euro)?,5,1.0,True,0.002636
+50,Gdzie szukać definicji pojęć użytych w regulaminie kart?,3,1.12,True,0.00267
+51,Czy Biuro Maklerskie jest osobnym administratorem w tej polityce?,5,1.368,True,0.002766
+52,W jakim języku prowadzona jest komunikacja i zawierana umowa?,5,1.23,True,0.002725
+53,"Ile kosztuje wpłata gotówki na rachunek, jeśli z umowy wynika, że opłatę ponosi odbiorca?",5,1.317,True,0.002729
+54,Jak bank traktuje transakcje inicjowane przez odbiorcę (np. abonamenty)?,1,3.645,True,0.004027
+55,"Jak bank oznacza pojęcia, które wyjaśnia w słowniczku?",5,2.044,True,0.003013
+56,"Co musi zrobić 14-latek, aby samodzielnie zawrzeć umowę o konto?",5,1.158,True,0.002678
+57,Czy bank pobiera opłatę za spłatę wierzytelności banku z Konta systematycznego?,1,1.384,True,0.002706
+58,Czy użytkownik karty może samodzielnie zmienić limity transakcyjne?,4,1.249,True,0.002725
+59,W jakim celu zbierane są dane osobowe według wstępu do dokumentu?,1,0.955,True,0.002566
+60,Kto nadzoruje działalność banku?,3,1.046,True,0.002614
