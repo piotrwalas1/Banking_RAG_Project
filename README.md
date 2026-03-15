@@ -150,4 +150,7 @@ Projekt zawiera narzędzie do porównywania raportów, które pozwala na:
    *   python ingest.py
    *   python bank_bot.py
   *    python test_runner.py
-    *  streamlit run dashboard.py
+  *     streamlit run dashboard.py
+  *    python dashboard.py
+  *    python dashboard_compare.py
+   
