@@ -27,7 +27,7 @@ Projekt składa się z trzech modułów, które automatyzują pełny cykl życia
     * **Faithfulness / Groundedness (Wierność):** Weryfikacja, czy bot nie generuje halucynacji.
     * **Retrieval Hit Rate:** Skuteczność odnajdywania właściwych dokumentów.
     * **Performance & FinOps:** Monitorowanie czasu odpowiedzi (Latency) oraz kosztu jednostkowego zapytania (Cost per Query).
-    * 
+      
 ### 4. `dashboard.py` (Analytical Dashboard)
 * **Technologia:** **Streamlit & Plotly**.
 * **Zadanie:** Wizualizacja wyników testów, analiza rozkładu ocen oraz monitoring wydajności (FinOps).
