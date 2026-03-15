@@ -31,7 +31,8 @@ Projekt składa się z trzech modułów, które automatyzują pełny cykl życia
 ### 4. `dashboard.py` (Analytical Dashboard)
 * **Technologia:** **Streamlit & Plotly**.
 * **Zadanie:** Wizualizacja wyników testów, analiza rozkładu ocen oraz monitoring wydajności (FinOps).
-### 5. `dashboard_compare.py` –  Wizualizacja wyników testów, porównywanie wyników (do wyciągania wniosków z testów A/B).
+### 5. `dashboard_compare.py` (Analytical Dashboard)
+* Wizualizacja wyników testów, porównywanie wyników (do wyciągania wniosków z testów A/B).
 
 ---
 
