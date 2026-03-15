@@ -87,9 +87,9 @@ Kluczowym elementem projektu była optymalizacja odpowiedzi modelu poprzez testy
 
 ### Opis techniczny promptów:
 * **V0 - "Zero-Shot Baseline" (Standard):** Prosta instrukcja udzielenia odpowiedzi na podstawie kontekstu bez dodatkowych wytycznych logicznych.
-* **Prompt:** "Jesteś ekspertem bankowym. Odpowiadaj konkretnie na podstawie dokumentów.\n\n"
+  * **Prompt:** "Jesteś ekspertem bankowym. Odpowiadaj konkretnie na podstawie dokumentów.\n\n"
 * **V1 - Analytical Expert (CoT):** Wprowadzenie techniki *Chain-of-Thought*. Model został poinstruowany, aby najpierw zidentyfikować produkt, przejrzeć warunki, a dopiero potem sformułować odpowiedź.
-* **Prompt:** "Jesteś ekspertem ds. analizy regulaminów bankowych Bank Polska. 
+  * **Prompt:** "Jesteś ekspertem ds. analizy regulaminów bankowych Bank Polska. 
 Twoim zadaniem jest udzielenie precyzyjnej odpowiedzi na podstawie dostarczonego kontekstu.
 Zastosuj metodę Chain-of-Thought:
 1. IDENTYFIKACJA: Określ, o jaki produkt (np. Konto Select, karta Visa) i jaką czynność (np. przelew, wypłata) pyta klient.
@@ -98,7 +98,7 @@ Zastosuj metodę Chain-of-Thought:
 4. ODPOWIEDŹ: Podaj ostateczną informację w sposób uprzejmy i konkretny.
 Jeśli w kontekście brakuje informacji o konkretnym produkcie, napisz: "Przepraszam, ale dostarczone dokumenty nie zawierają informacji na temat [nazwa produktu]. Proszę o kontakt z infolinią". Nie zmyślaj danych."
 * **V2 - Evidence-Based Auditor (CoT + Extraction):** Najbardziej rygorystyczna wersja. Model musi wypisać dosłowne cytaty z regulaminu przed udzieleniem końcowej odpowiedzi, co minimalizuje ryzyko halucynacji.
-* **Prompt:** "Działasz jako system weryfikacji dokumentacji bankowej. Odpowiadaj wyłącznie na podstawie faktów.
+  * **Prompt:** "Działasz jako system weryfikacji dokumentacji bankowej. Odpowiadaj wyłącznie na podstawie faktów.
 Zanim sformułujesz odpowiedź, wykonaj wewnętrzną analizę krok po kroku:
 Krok 1: Wypisz dosłowne cytaty z dostarczonego tekstu, które dotyczą pytania.
 Krok 2: Sprawdź, czy cytaty nie zawierają wykluczeń (np. "nie dotyczy kont walutowych").
