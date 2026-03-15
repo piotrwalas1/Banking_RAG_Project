@@ -84,6 +84,37 @@ System posiada zintegrowany interfejs analityczny zbudowany w **Streamlit**, kt�
 ## 📥 Pobieranie danych testowych
 Jeśli chcesz przeprowadzić własną analizę w Excelu, dashboard umożliwia wygenerowanie pełnego raportu w formacie `.csv`, który zawiera kompletną historię wszystkich 60 interakcji testowych.
 
+## 🧪 Testy A/B i Porównanie Technik Promptingu
+
+Kluczowym elementem projektu była optymalizacja odpowiedzi modelu poprzez testy porównawcze różnych strategii promptingu. Przeprowadzono ewaluację na zbiorze **60 pytań testowych** dla trzech wariantów:
+
+### Opis techniczny promptów:
+* **V0 - Baseline (Standard):** Prosta instrukcja udzielenia odpowiedzi na podstawie kontekstu bez dodatkowych wytycznych logicznych.
+* **V1 - Analytical Expert (CoT):** Wprowadzenie techniki *Chain-of-Thought*. Model został poinstruowany, aby najpierw zidentyfikować produkt, przejrzeć warunki, a dopiero potem sformułować odpowiedź.
+* **V2 - Evidence-Based Auditor (CoT + Extraction):** Najbardziej rygorystyczna wersja. Model musi wypisać dosłowne cytaty z regulaminu przed udzieleniem końcowej odpowiedzi, co minimalizuje ryzyko halucynacji.
+
+### Wyniki Benchmarkingu (A/B/C):
+
+| Metryka | V0 (Baseline) | V1 (Analytical) | V2 (Evidence-Based) |
+| :--- | :--- | :--- | :--- |
+| **Średnia Ocena (1-5)** | 3.67 | 3.73 | **3.88** |
+| **Hit Rate (Skuteczność)** | 98.33% | **100.0%** | **100.0%** |
+| **Średnia Latencja** | **1.35s** | 1.77s | 2.27s |
+| **Koszt (60 zapytań)** | **$0.164** | $0.174 | $0.188 |
+
+### 3. Wnioski z optymalizacji:
+- **Wzrost jakości:** Wersja **V2** poprawiła jakość odpowiedzi o **~6%** względem wersji bazowej (V0).
+- **Bezpieczeństwo danych:** Zastosowanie rygorystycznego promptu w wersji V2 wyeliminowało halucynacje przy trudnych pytaniach o limity wiekowe i opłaty walutowe.
+- **Koszt precyzji:** Wyższa jakość w wersji V2 wiąże się z ok. 40% wyższą latencją (z 1.35s do 2.27s), co w sektorze bankowym jest akceptowalnym kompromisem w zamian za poprawność merytoryczną.
+
+---
+
+## 📊 Dashboard i Analiza Wyników
+Projekt zawiera narzędzie do porównywania raportów, które pozwala na:
+- Wykrywanie regresji (sprawdzenie, na które pytania model odpowiedział gorzej po zmianie promptu).
+- Eksport zestawień do plików CSV.
+- Analizę korelacji między kosztem a jakością odpowiedzi.
+
 ## 🚀 Jak uruchomić?
 
 1. **Sklonuj repozytorium:**
