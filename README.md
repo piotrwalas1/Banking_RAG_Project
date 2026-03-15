@@ -102,6 +102,13 @@ Kluczowym elementem projektu była optymalizacja odpowiedzi modelu poprzez testy
 | **Średnia Latencja** | **1.35s** | 1.77s | 2.27s |
 | **Koszt (60 zapytań)** | **$0.164** | $0.174 | $0.188 |
 
+ <p align="center">
+  <img src="https://github.com/piotrwalas1/Banking_RAG_Project/blob/main/dashboardv0v1.png" width="600" title="raport1">
+</p>
+ <p align="center">
+  <img src="https://github.com/piotrwalas1/Banking_RAG_Project/blob/main/dashboardv0v2.png" width="600" title="raport1">
+</p>
+
 ### 3. Wnioski z optymalizacji:
 - **Wzrost jakości:** Wersja **V2** poprawiła jakość odpowiedzi o **~6%** względem wersji bazowej (V0).
 - **Bezpieczeństwo danych:** Zastosowanie rygorystycznego promptu w wersji V2 wyeliminowało halucynacje przy trudnych pytaniach o limity wiekowe i opłaty walutowe.
