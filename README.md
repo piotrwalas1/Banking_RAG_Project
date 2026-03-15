@@ -89,7 +89,7 @@ Jeśli chcesz przeprowadzić własną analizę w Excelu, dashboard umożliwia wy
 1. **Sklonuj repozytorium:**
  * git clone [https://github.com/piotrwalas1/Banking_RAG_Project.git](https://github.com/piotrwalas1/Banking_RAG_Project.git)
    cd Banking_RAG_Project
- *  2. **Zainstaluj zależności:**
+    2. **Zainstaluj zależności:**
   * "pip install pandas matplotlib numpy tabulate streamlit plotly python-dotenv"
 3. **Skonfiguruj środowisko:**
  *  Dodaj swoje klucze API dla modeli Gemini.
